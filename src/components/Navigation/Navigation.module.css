@@ -1,0 +1,19 @@
+.navLink{
+padding: 8px;
+border: 1 solid grey;
+color: aliceblue;
+background-color: rgb(87, 87, 87);
+border-radius: 4px;
+margin-right: 5px;
+outline: none;
+transition: 250ms;
+}
+.navLink:hover{
+   background-color: rgb(225, 216, 204);
+   color: rgb(57, 55, 55);
+   transition: 250ms;
+   border: none;
+}
+.navLink:last-child{
+   margin: 0;
+}
