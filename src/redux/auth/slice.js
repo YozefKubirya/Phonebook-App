@@ -25,10 +25,9 @@ state.isLoggedIn = true;
         return initialState;
       }).addCase(refreshUser.pending,(state)=>{
          state.isRefreshing=true;
-      }).addCase(refreshUser.fulfilled,(state,action)=>{
-         state.isRefreshing=false;
+      }).addCase(refreshUser.fulfilled,(state,action)=>{       
 state.user=action.payload;
-
+state.isRefreshing=false;
 state.isLoggedIn=true;
 
       })
