@@ -26,9 +26,9 @@ state.isLoggedIn = true;
       }).addCase(refreshUser.pending,(state)=>{
          state.isRefreshing=true;
       }).addCase(refreshUser.fulfilled,(state,action)=>{       
-state.user=action.payload;
-state.isRefreshing=false;
-state.isLoggedIn=true;
+       state.user=action.payload;
+       state.isRefreshing=false;
+       state.isLoggedIn=true;
 
       })
    }
