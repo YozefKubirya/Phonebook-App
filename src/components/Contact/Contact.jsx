@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux"
-import { deleteContact } from "../../redux/contacts/contactsOps";
+import { deleteContact } from "../../redux/contacts/operations";
 import { FaPhone } from "react-icons/fa6";
 import { RxAvatar } from "react-icons/rx";
 

@@ -3,7 +3,7 @@ import SearchBox from "../../components/SearchBox/SearchBox"
 import ContactList from "../../components/ContactList/ContactList"
 import { selectError,selectLoading } from '../../redux/selectors'
 import { useDispatch,useSelector } from 'react-redux'
-import { fetchContacts } from '../../redux/contacts/contactsOps'
+import { fetchContacts } from '../../redux/contacts/operations'
 import { useEffect } from 'react'
 export default function ContactsPage (){
    const loading=useSelector(selectLoading);

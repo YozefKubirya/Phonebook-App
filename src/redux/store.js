@@ -7,7 +7,7 @@ import { persistStore, persistReducer, FLUSH,
    REGISTER, } from 'redux-persist'
 import storage from 'redux-persist/lib/storage' 
 
-import contactReducer from './contacts/contactsSlice'
+import contactReducer from './contacts/slice'
 import filterReducer from './filters/filtersSlice'
 import authReducer from './auth/slice'
 
